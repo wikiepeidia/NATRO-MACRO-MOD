@@ -36,15 +36,16 @@ The only official sources are:
 [![][discord-shield]][discord-link]
 [![][roblox-shield]][roblox-link]
 <br>
-An open-source Bee Swarm Simulator macro written in AutoHotkey!<br>
+PROVIDING MODDED CODE FOR NATRO MACRO<br>
 </div>
 
 
 <a name="installation"><h2>🛠️ Installation</h2></a>
 
-1. Download `Natro_Macro_v#.#.#.zip` from the [latest release][latest-release-link]
-2. Open `Natro_Macro_v#.#.#` and double-click the folder inside
-3. Run `START.bat` and wait for the macro to load
+1. Download `Natro_Macro_v#.#.#.zip` from the [latest release][latest-release-link] and extract
+2. Installion of Auto hot key https://www.autohotkey.com/download/
+3. Installion VS code https://code.visualstudio.com/
+4. Start editing
 
 
 <a name="community"><h2>🌎 Community</h2></a>
