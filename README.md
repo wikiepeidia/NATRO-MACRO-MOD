@@ -82,10 +82,126 @@ credit: someone else i could not remember
 
 Installion: put the file in root natro consisting of /settings folder
 
-Tutorial: [![Watch on YouTube](https://img.youtube.com/vi/luWwBXv_7LA/maxresdefault.jpg)](https://www.youtube.com/watch?v=luWwBXv_7LA)
+Tutorial: 
+<a href="https://www.youtube.com/watch?v=luWwBXv_7LAk">
+    <img src="https://i9.ytimg.com/vi/luWwBXv_7LA/mqdefault.jpg?v=670b42b7&sqp=CMzZ1r0G&rs=AOn4CLB5zDLmyCmBjo9FiQywLNDNOngGcg" width="600" height="400" />
+</a>
 
+3. Advanced tab Enabler
 
+Image 
+
+click on the Version multiple time to enable
+
+4. Vicious bee hop macro
+
+Installion: https://github.com/epicisgood/VicHopMacro
+
+Usage: get stinger quick. No support for planters.
+
+5. Natro so broke custom text
+
+Emoji does not functional
+
+Version 1.0.1 developer beta click many time on the 😩 face
+
+Other version
+
+```ahk
+      if(ReconnectMessage && ((nowUnix()-LastNatroSoBroke)>3600)) { ;limit to once per hour
+        LastNatroSoBroke:=nowUnix()
+        Send "{Text}/[" A_Hour ":" A_Min ":" A_Sec "] Natro so broke  weary`n"
+      sleep 250
+    }
+``` 
+
+6. Guiding star custom text
+
+```ahk 
+        GSMins:=SubStr("0" Mod(A_Min+10, 60), -2)
+        Sleep 200
+        Send "{Text}/Guiding Star in " StringText " commune, tu liem hn at : [" A_Hour ":" A_Min ":" A_Sec "]`n"
+        sleep 250
+```
 <a name="community"><h2>🌎 Community</h2></a>
+
+7. Hive hub macro
+
+Installion:https://github.com/huner2/NatroMacro/tree/hub_field_addition
+
+Application for Image fix https://discord.com/channels/1012610056921038868/1305695364845928620
+
+Pattern reccomedation: IMAGE
+
+Notice: Apply ROBLOX image search fix due to very old version.Drift a lot and  no one willing to find a pattern
+
+
+Usage: AFK stickers, hive hub stamp, leaderboard, hive hub badge.
+
+IMAGE
+
+Tool reccomedation: dark scythe.
+
+8. RDP Setup
+
+Application installion: rdp wrapper sebaxakerhtc  https://github.com/sebaxakerhtc/rdpwrap/releases
+
+Running 2 ACCS for best error free:
+
+Acc main installion Bloxstrap, find code at `natromacro.ahk` 
+```ahk
+ ; if roblox exists, activate it and send Esc+L+Enter
+ ```
+replace the code below to 
+```ahk
+
+....................REST CODE....................
+        Sleep 4500 ; Delay to prevent Roblox Error Code 264
+    }
+    ; Kill only Bloxstrap version
+    for p in ComObjGet("winmgmts:").ExecQuery("SELECT * FROM Win32_Process WHERE Name LIKE '%Roblox%' OR CommandLine LIKE '%ROBLOXCORPORATION%'")
+    {
+        ExecutablePath := p.ExecutablePath
+        if (ExecutablePath && !(InStr(ExecutablePath, "Bloxstrap"))) ; Skip non-Bloxstrap versions
+            continue
+        ProcessClose p.ProcessID ; Kill Bloxstrap version of Roblox
+    }
+}
+```
+
+Acc alt installion normal roblox, edit the same location to
+```ahk
+ 
+....................REST CODE....................
+        Sleep 4500 ; Delay to prevent Roblox Error Code 264
+    }
+; Kill only the default-installed Roblox versions (ignoring Bloxstrap)
+    for p in ComObjGet("winmgmts:").ExecQuery("SELECT * FROM Win32_Process WHERE Name LIKE '%Roblox%' OR CommandLine LIKE '%ROBLOXCORPORATION%'")
+    {
+        ExecutablePath := p.ExecutablePath
+        if (ExecutablePath && InStr(ExecutablePath, "Bloxstrap")) ; Skip Bloxstrap version
+            continue
+        if (ExecutablePath && !(InStr(ExecutablePath, "Program Files") || InStr(ExecutablePath, "AppData"))) ; Skip non-default installs
+            continue
+        ProcessClose p.ProcessID ; Kill default-installed Roblox versions
+    }
+}
+```
+9. Reduction loops for vicious bee
+
+Usage: if good attack, can reduce errors detection wrong with stick bug's totem, timing errors with vicious bee,etc
+
+Loop fields (How many time attempt the vic,especially after dying, can be glitched)
+
+```ahk
+Loop 10 ; attempt each field a maximum of n (10) ;reduce loop lower
+```
+
+Time wait for attack: sometime can get error in attack and stand in a field for 10 minute
+
+```ahk
+if((nowUnix()-VBLastKilled)<(600)) { ;it has been less than 10 minutes since VB was found
+```
 
 [**Join us on Discord!**][discord-link]
 
