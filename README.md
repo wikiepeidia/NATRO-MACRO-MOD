@@ -123,7 +123,7 @@ Other version
         Send "{Text}/Guiding Star in " StringText " commune, tu liem hn at : [" A_Hour ":" A_Min ":" A_Sec "]`n"
         sleep 250
 ```
-<a name="community"><h2>🌎 Community</h2></a>
+
 
 7. Hive hub macro
 
