@@ -39,7 +39,7 @@ The only official sources are:
 PROVIDING MODDED CODE FOR NATRO MACRO<br>
 </div>
 
-
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/1.jpg)
 <a name="installation"><h2>🛠️ Get ready</h2></a>
 
 1. Download `Natro_Macro_v#.#.#.zip` from the [latest release of natro macro][latest-release-link] and extract
@@ -57,8 +57,8 @@ PROVIDING MODDED CODE FOR NATRO MACRO<br>
 3. i use this markdown to avoid have to post on my discord
 4. all of these code are from chatgpt. failure could happen. version might vary. 
 
-IMAGE
-<a name="CODE"><h2>🧑‍💻 CODES</h2></a>
+
+<a name="CODE"><h2>🧑‍💻 MODS</h2></a>
 1. Addition of shutdown command:
 
 files: `status.ahk`
@@ -89,7 +89,7 @@ Tutorial:
 
 3. Advanced tab Enabler
 
-Image 
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/2.jpg) 
 
 click on the Version multiple time to enable
 
@@ -99,7 +99,7 @@ Installion: https://github.com/epicisgood/VicHopMacro
 
 Usage: get stinger quick. No support for planters.
 
-5. Natro so broke custom text
+5. Natro so broke custom text `natromacro.ahk`
 
 Emoji does not functional
 
@@ -115,7 +115,7 @@ Other version
     }
 ``` 
 
-6. Guiding star custom text
+6. Guiding star custom text `natromacro.ahk`
 
 ```ahk 
         GSMins:=SubStr("0" Mod(A_Min+10, 60), -2)
@@ -131,14 +131,15 @@ Installion:https://github.com/huner2/NatroMacro/tree/hub_field_addition
 
 Application for Image fix https://discord.com/channels/1012610056921038868/1305695364845928620
 
-Pattern reccomedation: IMAGE
+Pattern reccomedation: 
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/3.jpg)
 
 Notice: Apply ROBLOX image search fix due to very old version.Drift a lot and  no one willing to find a pattern
 
 
 Usage: AFK stickers, hive hub stamp, leaderboard, hive hub badge.
 
-IMAGE
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/4.png)
 
 Tool reccomedation: dark scythe.
 
@@ -187,7 +188,7 @@ Acc alt installion normal roblox, edit the same location to
     }
 }
 ```
-9. Reduction loops for vicious bee
+9. Reduction loops for vicious bee `natromacro.ahk`
 
 Usage: if good attack, can reduce errors detection wrong with stick bug's totem, timing errors with vicious bee,etc
 
@@ -202,7 +203,7 @@ Time wait for attack: sometime can get error in attack and stand in a field for 
 ```ahk
 if((nowUnix()-VBLastKilled)<(600)) { ;it has been less than 10 minutes since VB was found
 ```
-
+<a name="CODE"><h2>🗨️🗣️ DISCORD</h2></a>
 [**Join us on Discord!**][discord-link]
 
 This is where you can connect with the community, access guides and help channels, and download custom patterns, paths, and themes!
@@ -223,8 +224,9 @@ Natro Macro is an open-source project. We greatly appreciate all contributions, 
 
 - **Bugs**: If you find an issue or run into an error message while using the macro, please create a [bug report][bug-report-link].
 - **Suggestions**: If you have an idea for a feature that you'd like to see in the macro, please submit a [suggestion][suggestion-link].
+- **FORK** if you want to mod natro macro of your own and share to other.
 
-For discussions, please join us on [Discord][discord-link] instead!
+For discussions,BUG errors please join us on [Discord][discord-link] instead!
 
 
 <a name="credits"><h2>💝 Credits</h2></a>
@@ -249,8 +251,9 @@ You can do this by scrolling up and clicking the Star button at the top of the p
 
 
 <a name="license"><details><summary><h4>📝 License</h4></summary></a>
-Copyright © 2022-2024 [Natro Team][github-profile-link]<br>
+Copyright © 2022-2025 [Natro Team][github-profile-link]<br>
 This project is licensed under [GNU GPL v3.0](./LICENSE.md)
+
 
 </details>
 
