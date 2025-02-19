@@ -40,12 +40,49 @@ PROVIDING MODDED CODE FOR NATRO MACRO<br>
 </div>
 
 
-<a name="installation"><h2>🛠️ Installation</h2></a>
+<a name="installation"><h2>🛠️ Get ready</h2></a>
 
-1. Download `Natro_Macro_v#.#.#.zip` from the [latest release][latest-release-link] and extract
+1. Download `Natro_Macro_v#.#.#.zip` from the [latest release of natro macro][latest-release-link] and extract
 2. Installion of Auto hot key https://www.autohotkey.com/download/
 3. Installion VS code https://code.visualstudio.com/
-4. Start editing
+4. Start editing on VSCODE.
+
+<a name="TIPS"><h2>💁 TIP</h2></a>
+1. these mods i feel so good and make macro easier.
+2. feel free to share to your friends. 
+
+<a name="NOTICE"><h2>⚠️ NOTICE</h2></a>
+1. i aint provide the natro macro in this fork. 
+2. please edit the code yourself
+3. i use this markdown to avoid have to post on my discord
+4. all of these code are from chatgpt. failure could happen. version might vary. 
+
+IMAGE
+<a name="CODE"><h2>🧑‍💻 CODES</h2></a>
+1. Addition of shutdown command:
+
+files: `status.ahk`
+
+```ahk 
+        case "restart":
+        discord.SendEmbed("Restarting YOUR pc...", 5066239, , , , id)
+        Shutdown 6
+
+        case "shutdown":
+        discord.SendEmbed("SHUTING DOWN YOUR WINDOWS...", 5066239, , , , id)
+        Shutdown 2 ;this command is not tested but high chances due to windows update or whatever can cause a restart.
+
+        case "sleep":
+        discord.SendEmbed("SLEEEEEEEPING YOUR WINDOWS...", 5066239, , , , id)
+        DllCall("PowrProf\SetSuspendState", "Int", 0, "Int", 0, "Int", 0)
+```
+2.  `field_config.ini` editor GUI
+
+credit: someone else i could not remember
+
+Installion: put the file in root natro consisting of /settings folder
+
+Tutorial: [![Watch on YouTube](https://img.youtube.com/vi/luWwBXv_7LA/maxresdefault.jpg)](https://www.youtube.com/watch?v=luWwBXv_7LA)
 
 
 <a name="community"><h2>🌎 Community</h2></a>
