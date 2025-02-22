@@ -389,7 +389,7 @@ all version of natro macro is hosted on github:
 
 If you find old version of zez macro,or natro macro enhancement(the true OG natro), or any other macro that need to be archived ,consider posting to
 
-[![Archive Old Macros](https://img.shields.io/badge/Web%20Archive-Submit%20OG%20Macros-990000?style=for-the-badge&logo=html5&logoColor=white)](https://web.archive.org)
+[![Archive Old Macros](https://img.shields.io/badge/Archive-Submit%20OG%20Macros-990000?style=for-the-badge&logo=html5&logoColor=white)](https://archive.org/create/)
 
 **Attention: Do not upload beta version of Natro macro**. I have tested and it is immediately deleted.Account ban might triggered if violate multiple times
 
