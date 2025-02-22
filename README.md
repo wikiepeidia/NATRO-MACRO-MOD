@@ -156,10 +156,16 @@ Tool reccomedation: dark scythe.
 
 8. RDP Setup
 
-![NATRO MACRO MOD](https://private-user-images.githubusercontent.com/32651506/254615659-ace3e952-8ff6-4850-b285-f55dc817bb2e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxODk0NjEsIm5iZiI6MTc0MDE4OTE2MSwicGF0aCI6Ii8zMjY1MTUwNi8yNTQ2MTU2NTktYWNlM2U5NTItOGZmNi00ODUwLWIyODUtZjU1ZGM4MTdiYjJlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIyVDAxNTI0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThkZDljODJlNDYxZDRkNDM0MWJjNDk2M2I2NGE3NGUxYmZhMTcxZGEzMjViN2JhMDNjYWE4NDRhZTEwZThkYzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Se8q3UWmcBB1iTIClJ7J_J7Z6RXYGZS1bz8DoEObVKU)
+Problem: Roblox cant run on virtual machine due to hyperion. here is what you can do before hyperion:
+
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/10.webp)
+
+Solution: usage of RDP,lighter than the whole OS, but less stability.
+
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/11.png)
 
 Application installion: rdp wrapper sebaxakerhtc  [![RDP Wrapper](https://img.shields.io/badge/GitHub-RDP%20Wrapper-black?style=flat-square&logo=github)](https://github.com/sebaxakerhtc/rdpwrap/releases)
-
+![NATRO MACRO MOD](https://private-user-images.githubusercontent.com/32651506/254615659-ace3e952-8ff6-4850-b285-f55dc817bb2e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxODk0NjEsIm5iZiI6MTc0MDE4OTE2MSwicGF0aCI6Ii8zMjY1MTUwNi8yNTQ2MTU2NTktYWNlM2U5NTItOGZmNi00ODUwLWIyODUtZjU1ZGM4MTdiYjJlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIyVDAxNTI0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThkZDljODJlNDYxZDRkNDM0MWJjNDk2M2I2NGE3NGUxYmZhMTcxZGEzMjViN2JhMDNjYWE4NDRhZTEwZThkYzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Se8q3UWmcBB1iTIClJ7J_J7Z6RXYGZS1bz8DoEObVKU)
 Notice: unsure some browser CHROME flag github.com/sebaxakerhtc/rdpwrap/ site as dangerous.This tool is much more updated with support for Automatic ini and patching files, as well as screen resoution change.
 
  If you do not like this RDP consider traditional way [![Google Docs](https://img.shields.io/badge/Google%20Docs-Open%20Document-4285F4?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/document/d/13Sx3mtLNRYVYAcTIRCjPcK41OygrBKOZg6mw-vfNTnQ/edit?usp=sharing)
@@ -204,6 +210,25 @@ Acc alt installion normal roblox, edit the same location to
             continue
         ProcessClose p.ProcessID ; Kill default-installed Roblox versions
     }
+}
+```
+
+if run more accs, consider use Bloxstrap all accs since it is guranteed to install on `%localappdata%` then apply code for both accs. 
+
+The codes are not tested. Check for yourself
+
+```ahk
+; Kill only Bloxstrap for the current user
+	CurrentUser := A_UserName
+	LocalAppDataPath := "C:\Users\" CurrentUser "\AppData\Local\Bloxstrap"
+
+	for p in ComObjGet("winmgmts:").ExecQuery("SELECT * FROM Win32_Process WHERE Name LIKE '%Roblox%' OR CommandLine LIKE '%ROBLOXCORPORATION%'")
+	{
+		ExecutablePath := p.ExecutablePath
+		if (ExecutablePath && !InStr(ExecutablePath, LocalAppDataPath)) ; Skip if not the current user's Bloxstrap
+			continue
+		ProcessClose p.ProcessID ; Kill only this user's Bloxstrap version of Roblox
+	}
 }
 ```
 9. Reduction loops for vicious bee `natromacro.ahk`
@@ -252,6 +277,7 @@ Download functional themes at  [![Visual Styles](https://img.shields.io/badge/Vi
 
 If you want a classic DEFAULT theme, either remove the `/nm_image_assets/styles/` or download a non functional theme such as [![Windows Aero](https://img.shields.io/badge/Windows%2011%20Aero-Download%20MSStyles-black?style=social&logo=windows&logoColor=blue)](https://www.deviantart.com/thetechnoguy18/art/Windows-11-aero-msstyles-for-Windows-10-906211554)
 
+Default theme has trouble with UI compared to with themes. this could be issues with AHK 2.0 UI selection, AHK 1.0 is perfect with default theme.
 
 ![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/8.jpg)
 
@@ -293,7 +319,7 @@ do not replace the whole `status.ahk` can cause sereve exception errors.
 This is where you can connect with the community, access guides and help channels, and download custom patterns, paths, and themes!
 
 Discord is our main platform for troubleshooting and update news!
-
+ 
 <a href="https://discord.gg/natromacro">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="http://invidget.switchblade.xyz/natromacro?theme=light"> <!-- light theme -->
@@ -333,13 +359,60 @@ You can do this by scrolling up and clicking the Star button at the top of the p
   </picture>
 </a>
 
+<a name="ARCHIVABILITY"><h2>📼ARCHIVIBALITY</h2></a>
 
-<a name="license"><details><summary><h4>📝 License</h4></summary></a>
+if you would like to have other version of natro macro, or zez's macro as historical, consider:
+
+all version of natro macro is hosted on github: 
+
+[![Natro Macro Releases](https://img.shields.io/badge/Natro%20Macro-All%20Versions-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/NatroTeam/NatroMacro/releases)
+
+
+If you find old version of zez macro,or natro macro enhancement(the true OG natro), or any other macro that need to be archived ,consider posting to
+
+[![Archive Old Macros](https://img.shields.io/badge/Web%20Archive-Submit%20OG%20Macros-990000?style=for-the-badge&logo=html5&logoColor=white)](https://web.archive.org)
+
+**Attention: Do not upload beta version of Natro macro**. I have tested and it is immediately deleted.Account ban might triggered if violate multiple times
+
+If you want to find them right now, i have uploaded some 
+
+[![My Archive Uploads](https://img.shields.io/badge/Internet%20Archive-My%20Uploads-222222?style=for-the-badge&logo=html5&logoColor=white)](https://archive.org/details/@kfg20005)
+
+<a name="HELP"><h2>🆘Help</h2></a>
+If the code is not functional,or if you would more customization please study AHK by yourself 
+
+[![AutoHotkey Docs](https://img.shields.io/badge/AutoHotkey-Official%20Docs-6DA55F?style=for-the-badge&logo=bookstack&logoColor=white)](https://www.autohotkey.com/docs/) 
+
+else please ask:
+
+[![ChatGPT](https://img.shields.io/badge/ChatGPT-OpenAI%20Chat-00A67E?style=for-the-badge&logo=openai&logoColor=white)](https://chat.openai.com/)
+
+[![Gemini AI](https://img.shields.io/badge/Google%20Gemini-Try%20AI-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://gemini.google.com/u/0/app)
+
+[![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-Try%20AI-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/features/copilot)
+
+[![BlackBox AI](https://img.shields.io/badge/BlackBox%20AI-Code%20Faster-000000?style=for-the-badge&logo=codeforces&logoColor=white)](https://www.blackbox.ai/)
+
+[![Microsoft Copilot](https://img.shields.io/badge/Microsoft%20Copilot-Try%20AI-0078D4?style=for-the-badge&logo=robot-framework&logoColor=white)](https://copilot.microsoft.com/)
+
+[![Claude AI](https://img.shields.io/badge/Claude%20AI-Chat%20Now-ff9900?style=for-the-badge&logo=anthropic&logoColor=white)](https://claude.ai/new)
+
+
+[![DeepSeek Chat](https://img.shields.io/badge/DeepSeek%20AI-Chat%20Now-5E60CE?style=for-the-badge&logo=deepnote&logoColor=white)](https://chat.deepseek.com/)
+
+[![Reddit: r/AutoHotkey](https://img.shields.io/badge/Reddit-r%2FAutoHotkey-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/r/AutoHotkey/)
+
+
+[![Stack Overflow: AutoHotkey](https://img.shields.io/badge/Stack%20Overflow-AutoHotkey-FF9900?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/questions/tagged/autohotkey)
+
+[![Discord Support](https://img.shields.io/badge/Discord-AHK%20DISCISSION%20NATRO-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://ptb.discord.com/channels/1012610056921038868/1190836918804561971)
+
+<a name="license"><summary><h2>📝 License</h2></summary></a>
 Copyright © 2022-2025 [Natro Team][github-profile-link]<br>
 This project is licensed under [GNU GPL v3.0](./LICENSE.md)
 
 
-</details>
+
 
 <!-- links -->
 [latest-release-shield]: https://img.shields.io/github/v/release/NatroTeam/NatroMacro?logo=github&logoColor=white&labelColor=black&color=faa125
