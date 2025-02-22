@@ -250,7 +250,31 @@ Considering some solution
 
 [![Proxmox GPU Passthrough](https://img.shields.io/badge/Proxmox-GPU%20Passthrough-EE7623?style=for-the-badge&logo=proxmox&logoColor=white)](https://pve.proxmox.com/wiki/Pci_passthrough)
 
-9. Reduction loops for vicious bee `natromacro.ahk`
+Disadvantage: any time attempting to run multiple roblox macro on a PC would consume extreme power.
+
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/13.png)
+
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/13.png)
+
+If you are seeing your CPU continously at 100%, the temperature is fluctuate around 90-93 degree, either come at these solution
+
+[![RDP Optimization Doc](https://img.shields.io/badge/RDP%20Optimization-Documentation-4285F4?style=for-the-badge&logo=google-drive&logoColor=white)](https://docs.google.com/document/d/1-tihlV3_0zDef1H_RfvneL18zDu7wW2__T1iGJQkCLQ/edit?tab=t.0)
+
+
+[![Buy Intel CPU](https://img.shields.io/badge/Buy%20Intel%20CPU-Intel-0071C5?style=for-the-badge&logo=intel&logoColor=white)](https://www.intel.com/content/www/us/en/products/details/processors.html)
+
+
+[![Buy AMD CPU](https://img.shields.io/badge/Buy%20AMD%20CPU-Ryzen-ED1C24?style=for-the-badge&logo=amd&logoColor=white)](https://www.amd.com/en/where-to-buy/processors/ryzen.html)
+
+
+[![Buy CPU Accessories](https://img.shields.io/badge/Buy%20CPU%20Accessories-HoangHaPC-008000?style=for-the-badge&logo=amazonec2&logoColor=white)](https://hoanghapc.vn/linh-kien-may-tinh)
+
+
+[![Buy PSU](https://img.shields.io/badge/Buy%20Power%20Supply-AnPhatPC-FF4500?style=for-the-badge&logo=hyper&logoColor=white)](https://www.anphatpc.com.vn/nguon-dien-may-tinh-psu.html)
+
+
+
+1. Reduction loops for vicious bee `natromacro.ahk`
 
 Usage: if good attack, can reduce errors detection wrong with stick bug's totem, timing errors with vicious bee,etc
 
