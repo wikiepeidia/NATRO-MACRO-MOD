@@ -425,7 +425,7 @@ else please ask:
 
 [![Discord Support](https://img.shields.io/badge/Discord-AHK%20DISCISSION%20NATRO-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://ptb.discord.com/channels/1012610056921038868/1190836918804561971)
 
-<a name="license"><summary><h2>📝 License</h2></summary></a>
+<a name="license"><h2>📝 License</h2></a>
 Copyright © 2022-2025 [Natro Team][github-profile-link]<br>
 This project is licensed under [GNU GPL v3.0](./LICENSE.md)
 
