@@ -244,7 +244,7 @@ if you want virtual machine, consider finding a way to GPU passthrough. Hyperion
 
 Considering some solution
 
-[![VMware GPU Passthrough](https://img.shields.io/badge/VMware-PCIe%20Passthrough-607078?style=for-the-badge&logo=vmware&logoColor=white)](https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-esxi-vcenter-server-802-virtual-machine-management-guide/GUID-37D2D3C1-3077-40B1-BC1B-A882B3FE706C.html)
+[![VMware GPU Passthrough](https://img.shields.io/badge/VMware-PCIe%20Passthrough-607078?style=for-the-badge&logo=vmware&logoColor=white)](https://us.informatiweb-pro.net/virtualization/vmware/vmware-esxi-6-7-pci-passthrough.html)
 
 [![KVM GPU Passthrough](https://img.shields.io/badge/KVM/QEMU-GPU%20Passthrough-AC0000?style=for-the-badge&logo=linux&logoColor=white)](https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF)
 
