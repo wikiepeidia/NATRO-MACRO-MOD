@@ -43,8 +43,8 @@ PROVIDING MODDED CODE FOR NATRO MACRO<br>
 <a name="installation"><h2>🛠️ Get ready</h2></a>
 
 1. Download `Natro_Macro_v#.#.#.zip` from the [latest release of natro macro][latest-release-link] and extract
-2. Installion of Auto hot key https://www.autohotkey.com/download/
-3. Installion VS code https://code.visualstudio.com/
+2. Installion of Auto hot key [![AutoHotkey](https://img.shields.io/badge/Download-AutoHotkey-blue?style=for-the-badge)](https://www.autohotkey.com/download/)  
+3. Installion VS code [![VSCode](https://img.shields.io/badge/Download-VSCode-purple?style=for-the-badge)](https://code.visualstudio.com/)  
 4. Start editing on VSCODE.
 
 <a name="TIPS"><h2>💁 TIP</h2></a>
@@ -57,6 +57,7 @@ PROVIDING MODDED CODE FOR NATRO MACRO<br>
 3. i use this markdown to avoid have to post on my discord
 4. all of these code are from chatgpt.
 5.  though failure are rare, it can cause EXCEPTION at no moment. you need to know where to edit.
+6.  All the files ahk are located in folder `/submacros/`
 
 
 <a name="CODE"><h2>🧑‍💻 MODS</h2></a>
@@ -77,7 +78,7 @@ files: `status.ahk`
         discord.SendEmbed("SLEEEEEEEPING YOUR WINDOWS...", 5066239, , , , id)
         DllCall("PowrProf\SetSuspendState", "Int", 0, "Int", 0, "Int", 0)
 ```
-2.  `field_config.ini` editor GUI
+2.  `/settings/field_config.ini` editor GUI
 
 credit: someone else i could not remember
 
@@ -85,7 +86,7 @@ Installion: put the file in root natro consisting of /settings folder
 
 Tutorial: 
 <a href="https://www.youtube.com/watch?v=luWwBXv_7LAk">
-    <img src="https://i9.ytimg.com/vi/luWwBXv_7LA/mqdefault.jpg?v=670b42b7&sqp=CMzZ1r0G&rs=AOn4CLB5zDLmyCmBjo9FiQywLNDNOngGcg" width="600" height="400" />
+    <img src="https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/4.jpg" width="502" height="177" />
 </a>
 
 3. Advanced tab Enabler
@@ -96,7 +97,10 @@ click on the Version multiple time to enable
 
 4. Vicious bee hop macro
 
-Installion: https://github.com/epicisgood/VicHopMacro
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/5.jpg)
+
+Installion: [![VicHopMacro](https://img.shields.io/badge/GitHub-VicHopMacro-black?style=for-the-badge&logo=github)](https://github.com/epicisgood/VicHopMacro)
+
 
 Usage: get stinger quick. No support for planters.
 
@@ -106,7 +110,13 @@ Emoji does not functional
 
 Version 1.0.1 developer beta click many time on the 😩 face
 
-Other version
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/6.jpg)
+
+Other version OR if you want to fix for ....
+```ahk
+[" A_Hour ":" A_Min ":" A_Sec "]
+```
+pramenter:
 
 ```ahk
       if(ReconnectMessage && ((nowUnix()-LastNatroSoBroke)>3600)) { ;limit to once per hour
@@ -128,9 +138,9 @@ Other version
 
 7. Hive hub macro
 
-Installion:https://github.com/huner2/NatroMacro/tree/hub_field_addition
+Installion:[![NatroMacro](https://img.shields.io/badge/GitHub-HIVEHUBMACRO-black?style=for-the-badge&logo=github)](https://github.com/huner2/NatroMacro/tree/hub_field_addition)  
 
-Application for Image fix https://discord.com/channels/1012610056921038868/1305695364845928620
+Application for Image fix [![Discord](https://img.shields.io/badge/Discord-Image%20Fix-5865F2?style=for-the-badge&logo=discord)](https://discord.com/channels/1012610056921038868/1305695364845928620)
 
 Pattern reccomedation: 
 ![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/3.jpg)
@@ -146,7 +156,14 @@ Tool reccomedation: dark scythe.
 
 8. RDP Setup
 
-Application installion: rdp wrapper sebaxakerhtc  https://github.com/sebaxakerhtc/rdpwrap/releases
+![NATRO MACRO MOD](https://private-user-images.githubusercontent.com/32651506/254615659-ace3e952-8ff6-4850-b285-f55dc817bb2e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxODk0NjEsIm5iZiI6MTc0MDE4OTE2MSwicGF0aCI6Ii8zMjY1MTUwNi8yNTQ2MTU2NTktYWNlM2U5NTItOGZmNi00ODUwLWIyODUtZjU1ZGM4MTdiYjJlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIyVDAxNTI0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThkZDljODJlNDYxZDRkNDM0MWJjNDk2M2I2NGE3NGUxYmZhMTcxZGEzMjViN2JhMDNjYWE4NDRhZTEwZThkYzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Se8q3UWmcBB1iTIClJ7J_J7Z6RXYGZS1bz8DoEObVKU)
+
+Application installion: rdp wrapper sebaxakerhtc  [![RDP Wrapper](https://img.shields.io/badge/GitHub-RDP%20Wrapper-black?style=flat-square&logo=github)](https://github.com/sebaxakerhtc/rdpwrap/releases)
+
+Notice: unsure some browser CHROME flag github.com/sebaxakerhtc/rdpwrap/ site as dangerous.This tool is much more updated with support for Automatic ini and patching files, as well as screen resoution change.
+
+ If you do not like this RDP consider traditional way [![Google Docs](https://img.shields.io/badge/Google%20Docs-Open%20Document-4285F4?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/document/d/13Sx3mtLNRYVYAcTIRCjPcK41OygrBKOZg6mw-vfNTnQ/edit?usp=sharing)
+
 
 Running 2 ACCS for best error free:
 
@@ -204,6 +221,72 @@ Time wait for attack: sometime can get error in attack and stand in a field for 
 ```ahk
 if((nowUnix()-VBLastKilled)<(600)) { ;it has been less than 10 minutes since VB was found
 ```
+10. Changement of the Title and icon, Themes.
+
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/7.jpg)
+
+title: `natromacro.ahk`
+```ahk 
+MainGui := Gui((AlwaysOnTop ? "+AlwaysOnTop " : "") "+Border +OwnDialogs", "Natro Macro (Loading 0%)")
+```
+
+```ahk
+SetLoadingProgress(percent) => MainGui.Title := "Natro Macro (Loading " Round(percent) "%)"
+```
+
+```ahk 
+MainGui.Title := "NaAAAtro Macro"
+```
+
+icon:
+
+locate `/nm_image_assets/auryn.ico`
+
+Usage icon maker, converter website: [![Favicon.io](https://img.shields.io/badge/Favicon.io-Icon%20Maker-orange?style=flat-square&logo=googlechrome&logoColor=white)](https://favicon.io/)
+
+
+theme:
+
+Download functional themes at  [![Visual Styles](https://img.shields.io/badge/Visual%20Styles-Download%20Themes-blue?style=plastic&logo=paintbrush&logoColor=white)](https://www.skin-soft.co.uk/visualstyles/skingallery.aspx)
+
+
+If you want a classic DEFAULT theme, either remove the `/nm_image_assets/styles/` or download a non functional theme such as [![Windows Aero](https://img.shields.io/badge/Windows%2011%20Aero-Download%20MSStyles-black?style=social&logo=windows&logoColor=blue)](https://www.deviantart.com/thetechnoguy18/art/Windows-11-aero-msstyles-for-Windows-10-906211554)
+
+
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/8.jpg)
+
+11. additional feature from developer version to version does not have that feature yet
+
+to hand on one of the developer versions  please join natro macro server [![natro macro](https://img.shields.io/discord/1012610056921038868?logo=discord&logoColor=white&label=Discord&labelColor=black&color=5865f2)](https://discord.com/channels/1012610056921038868)
+and perform a server boost [![TUTORIAL](https://img.shields.io/badge/Boost%20Server-TUTORIAL-ff73fa?style=for-the-badge&logo=discord&logoColor=white)](https://support.discord.com/hc/en-us/articles/360028038352-Server-Boosting-FAQ)
+
+**⚠️Attention: do not leak any of the developer version.**
+
+in this case, version 1.0.0.3 is newer than version 1.0.1 developer beta. this is more like windows neptune 5111 versus windows xp 2600. 
+
+we will not provide code for this section due to privacy issue but we will provide tips whether possible to transfer
+
+**finditem function:** `status.ahk`
+
+is a very good function to use to check for your current item. 
+ 
+Has ability to get item with typos. 
+
+Has issue with the new roblox window UI update, but functional decently. many items are confused and won't retrieve correctly
+
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/9.jpg)
+
+It is difficult to transfer this command, (yes harder than the previous mods) but here are some concept:
+
+grab the `case: finditem` section and paste to location of other cases.
+
+grab other functions that is not assigned, correct location correct main function
+
+grab image assets.
+
+do not replace the whole `status.ahk` can cause sereve exception errors.
+
+
 <a name="CODE"><h2>🗨️🗣️ DISCORD</h2></a>
 [**Join us on Discord!**][discord-link]
 
