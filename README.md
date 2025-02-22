@@ -55,7 +55,8 @@ PROVIDING MODDED CODE FOR NATRO MACRO<br>
 1. i aint provide the natro macro in this fork. 
 2. please edit the code yourself
 3. i use this markdown to avoid have to post on my discord
-4. all of these code are from chatgpt. failure could happen. version might vary. 
+4. all of these code are from chatgpt.
+5.  though failure are rare, it can cause EXCEPTION at no moment. you need to know where to edit.
 
 
 <a name="CODE"><h2>🧑‍💻 MODS</h2></a>
