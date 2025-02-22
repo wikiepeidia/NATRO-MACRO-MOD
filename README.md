@@ -272,6 +272,7 @@ If you are seeing your CPU continously at 100%, the temperature is fluctuate aro
 
 [![Buy PSU](https://img.shields.io/badge/Buy%20Power%20Supply-AnPhatPC-FF4500?style=for-the-badge&logo=hyper&logoColor=white)](https://www.anphatpc.com.vn/nguon-dien-may-tinh-psu.html)
 
+[![Buy RAM](https://img.shields.io/badge/Buy%20RAM-MemoryZone-0066CC?style=for-the-badge&logo=dell&logoColor=white)](https://memoryzone.com.vn/ram)
 
 
 9. Reduction loops for vicious bee `natromacro.ahk`
