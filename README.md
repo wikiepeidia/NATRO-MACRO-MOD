@@ -161,10 +161,13 @@ Tool reccomedation: dark scythe.
 
 8. RDP Setup
 
-Problem: Roblox cant run on virtual machine due to hyperion. here is what you can do before hyperion:
+Problem: Roblox cant run on virtual machine due to no GPU passthrough.Hyperion does not like Vmware SVGA,etc
+
+here is what you can do before :
 
 ![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/10.webp)
 
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/12.png)
 Solution: usage of RDP,lighter than the whole OS, but less stability.
 
 ![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/11.png)
@@ -236,6 +239,17 @@ The codes are not tested. Check for yourself
 	}
 }
 ```
+
+if you want virtual machine, consider finding a way to GPU passthrough. Hyperion wants GPU, means you would somehow be able to install your GPU driver inside the vm.
+
+Considering some solution
+
+[![VMware GPU Passthrough](https://img.shields.io/badge/VMware-PCIe%20Passthrough-607078?style=for-the-badge&logo=vmware&logoColor=white)](https://docs.vmware.com/en/VMware-vSphere/8.0/vsphere-esxi-vcenter-server-802-virtual-machine-management-guide/GUID-37D2D3C1-3077-40B1-BC1B-A882B3FE706C.html)
+
+[![KVM GPU Passthrough](https://img.shields.io/badge/KVM/QEMU-GPU%20Passthrough-AC0000?style=for-the-badge&logo=linux&logoColor=white)](https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF)
+
+[![Proxmox GPU Passthrough](https://img.shields.io/badge/Proxmox-GPU%20Passthrough-EE7623?style=for-the-badge&logo=proxmox&logoColor=white)](https://pve.proxmox.com/wiki/Pci_passthrough)
+
 9. Reduction loops for vicious bee `natromacro.ahk`
 
 Usage: if good attack, can reduce errors detection wrong with stick bug's totem, timing errors with vicious bee,etc
