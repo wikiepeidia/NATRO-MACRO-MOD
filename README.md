@@ -82,11 +82,12 @@ files: `status.ahk`
 
 credit: someone else i could not remember
 
-Installion: put the file in root natro consisting of /settings folder
+Installion: put the file in root natro consisting of `/settings` folder
 
 <a href="https://www.youtube.com/watch?v=luWwBXv_7LAk">
     <img src="https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/4.jpg" width="502" height="177" />
 </a>
+
 Tutorial:
 
  [![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=luWwBXv_7LAk)
