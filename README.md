@@ -254,7 +254,7 @@ Disadvantage: any time attempting to run multiple roblox macro on a PC would con
 
 ![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/13.png)
 
-![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/13.png)
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/14.png)
 
 If you are seeing your CPU continously at 100%, the temperature is fluctuate around 90-93 degree, either come at these solution
 
@@ -274,7 +274,7 @@ If you are seeing your CPU continously at 100%, the temperature is fluctuate aro
 
 
 
-1. Reduction loops for vicious bee `natromacro.ahk`
+9. Reduction loops for vicious bee `natromacro.ahk`
 
 Usage: if good attack, can reduce errors detection wrong with stick bug's totem, timing errors with vicious bee,etc
 
