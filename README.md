@@ -98,7 +98,7 @@ Tutorial:
 
 ![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/2.jpg) 
 
-click on the Version multiple time to enable
+click on the Version `v1.0.x` at the corner multiple time to enable
 
 4. Vicious bee hop macro
 
