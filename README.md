@@ -84,10 +84,14 @@ credit: someone else i could not remember
 
 Installion: put the file in root natro consisting of /settings folder
 
-Tutorial: 
 <a href="https://www.youtube.com/watch?v=luWwBXv_7LAk">
     <img src="https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/4.jpg" width="502" height="177" />
 </a>
+Tutorial:
+
+ [![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=luWwBXv_7LAk)
+
+
 
 3. Advanced tab Enabler
 
@@ -401,7 +405,6 @@ else please ask:
 [![DeepSeek Chat](https://img.shields.io/badge/DeepSeek%20AI-Chat%20Now-5E60CE?style=for-the-badge&logo=deepnote&logoColor=white)](https://chat.deepseek.com/)
 
 [![Reddit: r/AutoHotkey](https://img.shields.io/badge/Reddit-r%2FAutoHotkey-FF4500?style=for-the-badge&logo=reddit&logoColor=white)](https://www.reddit.com/r/AutoHotkey/)
-
 
 [![Stack Overflow: AutoHotkey](https://img.shields.io/badge/Stack%20Overflow-AutoHotkey-FF9900?style=for-the-badge&logo=stackoverflow&logoColor=white)](https://stackoverflow.com/questions/tagged/autohotkey)
 
