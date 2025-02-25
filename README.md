@@ -242,6 +242,13 @@ The codes are not tested. Check for yourself
 	}
 }
 ```
+recommendation resulution: 1366x768, for honeyday consider full HD. 
+
+for 1366x768, recommended full screen to avoid inactive honey issues. Small taskbar if you do not want full screen.
+
+to get small taskbar on windows 11 consider:
+
+[![Get Small Taskbar](https://img.shields.io/badge/Get%20Small%20Taskbar-ExplorerPatcher-0078D7?style=for-the-badge&logo=github&logoColor=white)](https://github.com/valinet/ExplorerPatcher)
 
 if you want virtual machine, consider finding a way to GPU passthrough. Hyperion wants GPU, means you would somehow be able to install your GPU driver inside the vm.
 
@@ -279,7 +286,7 @@ If you are seeing your CPU continously at 100%, the temperature is fluctuate aro
 
 [![Buy Gaming PC](https://img.shields.io/badge/Buy%20Gaming%20PC-GEARVN-FF0000?style=for-the-badge&logo=nvidia&logoColor=white)](https://gearvn.com/pages/pc-gvn)
 
-10. Reduction loops for vicious bee `natromacro.ahk`
+1.  Reduction loops for vicious bee `natromacro.ahk`
 
 Usage: if good attack, can reduce errors detection wrong with stick bug's totem, timing errors with vicious bee,etc
 
@@ -461,6 +468,17 @@ else please ask:
 <a name="license"><h2>📝 License</h2></a>
 Copyright © 2022-2025 [Natro Team][github-profile-link]<br>
 This project is licensed under [GNU GPL v3.0](./LICENSE.md)
+<a name="contriutinon"><h2>💁 contribution</h2></a>
+
+| Contributor         | Purpose/What They Do                                      |
+|---------------------|----------------------------------------------------------|
+| **Natro Macro**     | Main project of course                                   |
+| **ChatGPT**         | Provide `Shield.io` links, provide working scripts        |
+| **GitHub Copilot**  | Provide working scripts                                 |
+| **Simple Icons**    | Provide `Shield.io` icons                                 |
+| **wikiepeidia**       | Provide links, YouTube tutorials, and images           |
+| **Other Authors**   | RDP, field editor script, documents, etc.              |
+
 
 
 
