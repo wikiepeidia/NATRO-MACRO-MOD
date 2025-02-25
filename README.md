@@ -84,6 +84,8 @@ credit: someone else i could not remember
 
 Installion: put the file in root natro consisting of `/settings` folder
 
+as of right now i cant find the github or original link for this script, temprary upload to script folder until i could find theoiginal
+
 <a href="https://www.youtube.com/watch?v=luWwBXv_7LAk">
     <img src="https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/4.jpg" width="502" height="177" />
 </a>
@@ -145,13 +147,12 @@ pramenter:
 
 Installion:[![NatroMacro](https://img.shields.io/badge/GitHub-HIVEHUBMACRO-black?style=for-the-badge&logo=github)](https://github.com/huner2/NatroMacro/tree/hub_field_addition)  
 
-Application for Image fix [![Discord](https://img.shields.io/badge/Discord-Image%20Fix-5865F2?style=for-the-badge&logo=discord)](https://discord.com/channels/1012610056921038868/1305695364845928620)
-
 Pattern reccomedation: 
 ![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/3.jpg)
 
 Notice: Apply ROBLOX image search fix due to very old version.Drift a lot and  no one willing to find a pattern
 
+Application for Image fix [![Discord](https://img.shields.io/badge/Discord-Image%20Fix-5865F2?style=for-the-badge&logo=discord)](https://discord.com/channels/1012610056921038868/1305695364845928620)
 
 Usage: AFK stickers, hive hub stamp, leaderboard, hive hub badge.
 
@@ -159,7 +160,7 @@ Usage: AFK stickers, hive hub stamp, leaderboard, hive hub badge.
 
 Tool reccomedation: dark scythe.
 
-8. RDP Setup
+1. RDP Setup
 
 Problem: Roblox cant run on virtual machine due to no GPU passthrough.Hyperion does not like Vmware SVGA,etc
 
@@ -172,9 +173,11 @@ Solution: usage of RDP,lighter than the whole OS, but less stability.
 
 ![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/11.png)
 
-Application installion: rdp wrapper sebaxakerhtc  [![RDP Wrapper](https://img.shields.io/badge/GitHub-RDP%20Wrapper-black?style=flat-square&logo=github)](https://github.com/sebaxakerhtc/rdpwrap/releases)
-![NATRO MACRO MOD](https://private-user-images.githubusercontent.com/32651506/254615659-ace3e952-8ff6-4850-b285-f55dc817bb2e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAxODk0NjEsIm5iZiI6MTc0MDE4OTE2MSwicGF0aCI6Ii8zMjY1MTUwNi8yNTQ2MTU2NTktYWNlM2U5NTItOGZmNi00ODUwLWIyODUtZjU1ZGM4MTdiYjJlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIyVDAxNTI0MVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPThkZDljODJlNDYxZDRkNDM0MWJjNDk2M2I2NGE3NGUxYmZhMTcxZGEzMjViN2JhMDNjYWE4NDRhZTEwZThkYzkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Se8q3UWmcBB1iTIClJ7J_J7Z6RXYGZS1bz8DoEObVKU)
-Notice: unsure some browser CHROME flag github.com/sebaxakerhtc/rdpwrap/ site as dangerous.This tool is much more updated with support for Automatic ini and patching files, as well as screen resoution change.
+Application installion: rdp wrapper sebaxakerhtc  
+
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/15.jpg)
+
+Notice: unsure some browser CHROME flag `github.com/sebaxakerhtc/rdpwrap/` site as dangerous.This tool is much more updated with support for Automatic ini and patching files, as well as screen resoution change.
 
  If you do not like this RDP consider traditional way [![Google Docs](https://img.shields.io/badge/Google%20Docs-Open%20Document-4285F4?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/document/d/13Sx3mtLNRYVYAcTIRCjPcK41OygrBKOZg6mw-vfNTnQ/edit?usp=sharing)
 
@@ -276,7 +279,7 @@ If you are seeing your CPU continously at 100%, the temperature is fluctuate aro
 
 [![Buy Gaming PC](https://img.shields.io/badge/Buy%20Gaming%20PC-GEARVN-FF0000?style=for-the-badge&logo=nvidia&logoColor=white)](https://gearvn.com/pages/pc-gvn)
 
-9. Reduction loops for vicious bee `natromacro.ahk`
+10. Reduction loops for vicious bee `natromacro.ahk`
 
 Usage: if good attack, can reduce errors detection wrong with stick bug's totem, timing errors with vicious bee,etc
 
@@ -338,6 +341,10 @@ in this case, version 1.0.0.3 is newer than version 1.0.1 developer beta. this i
 we will not provide code for this section due to privacy issue but we will provide tips whether possible to transfer
 
 **finditem function:** `status.ahk`
+
+PREquensities: installion of bot webhook:
+
+[![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=CIGZcUqpuVY)
 
 is a very good function to use to check for your current item. 
  
