@@ -160,7 +160,7 @@ Usage: AFK stickers, hive hub stamp, leaderboard, hive hub badge.
 
 Tool reccomedation: dark scythe.
 
-1. RDP Setup
+10. RDP Setup
 
 Problem: Roblox cant run on virtual machine due to no GPU passthrough.Hyperion does not like Vmware SVGA,etc
 
