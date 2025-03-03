@@ -347,32 +347,24 @@ in this case, version 1.0.0.3 is newer than version 1.0.1 developer beta. this i
 
 we will not provide code for this section due to privacy issue but we will provide tips whether possible to transfer
 
-**finditem function:** `status.ahk`
+Attention: we just recieved a warning from natro macro to not leak any informations. thus we will no longer provide anything here
 
-PREquensities: installion of bot webhook:
+If you are using that developer beta versions, consider everything is  DIY. 
+
+For supports, only channels that is granted with the access to the pre release will help you.
+
+leaking anywhere else could result in terminations,blacklist and etc..
+
+concepts: if you want anything yourself, consider study where the functions and assets at.
+
+
+12.  : installion of bot webhook:
 
 [![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=CIGZcUqpuVY)
 
-is a very good function to use to check for your current item. 
- 
-Has ability to get item with typos. 
-
-Has issue with the new roblox window UI update, but functional decently. many items are confused and won't retrieve correctly
-
-![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/9.jpg)
-
-It is difficult to transfer this command, (yes harder than the previous mods) but here are some concept:
-
-grab the `case: finditem` section and paste to location of other cases.
-
-grab other functions that is not assigned, correct location correct main function
-
-grab image assets.
-
-do not replace the whole `status.ahk` can cause sereve exception errors.
 
 
-<a name="CODE"><h2>🗨️🗣️ DISCORD</h2></a>
+<a name="DISCORD"><h2>🗨️🗣️ DISCORD</h2></a>
 [**Join us on Discord!**][discord-link]
 
 This is where you can connect with the community, access guides and help channels, and download custom patterns, paths, and themes!
@@ -386,6 +378,14 @@ Discord is our main platform for troubleshooting and update news!
   </picture>
 </a>
 
+for more mods consider our discord 
+
+<a href="https://discord.gg/RrznTTmu5G">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="http://invidget.switchblade.xyz/RrznTTmu5G?theme=light"> <!-- light theme -->
+    <img alt="discord-invite-widget" width=500 src="http://invidget.switchblade.xyz/RrznTTmu5G "> <!-- dark theme -->
+  </picture>
+</a>
 
 <a name="contributing"><h2>⌨️ Contributing</h2></a>
 
