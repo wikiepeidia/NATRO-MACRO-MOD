@@ -115,11 +115,7 @@ Usage: get stinger quick. No support for planters.
 
 Emoji does not functional
 
-Version 1.0.1 developer beta click many time on the 😩 face
 
-![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/6.jpg)
-
-Other version OR if you want to fix for ....
 ```ahk
 [" A_Hour ":" A_Min ":" A_Sec "]
 ```
@@ -160,7 +156,7 @@ Usage: AFK stickers, hive hub stamp, leaderboard, hive hub badge.
 
 Tool reccomedation: dark scythe.
 
-10. RDP Setup
+8. RDP Setup
 
 Problem: Roblox cant run on virtual machine due to no GPU passthrough.Hyperion does not like Vmware SVGA,etc
 
@@ -286,7 +282,7 @@ If you are seeing your CPU continously at 100%, the temperature is fluctuate aro
 
 [![Buy Gaming PC](https://img.shields.io/badge/Buy%20Gaming%20PC-GEARVN-FF0000?style=for-the-badge&logo=nvidia&logoColor=white)](https://gearvn.com/pages/pc-gvn)
 
-1.  Reduction loops for vicious bee `natromacro.ahk`
+9.  Reduction loops for vicious bee `natromacro.ahk`
 
 Usage: if good attack, can reduce errors detection wrong with stick bug's totem, timing errors with vicious bee,etc
 
@@ -363,7 +359,11 @@ concepts: if you want anything yourself, consider study where the functions and 
 [![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=CIGZcUqpuVY)
 
 
+13. puffshrrom attention timer
 
+created despealtely by claude 3.7 from coplot github
+
+announce puffshrrom so you will not forget.
 <a name="DISCORD"><h2>🗨️🗣️ DISCORD</h2></a>
 [**Join us on Discord!**][discord-link]
 
