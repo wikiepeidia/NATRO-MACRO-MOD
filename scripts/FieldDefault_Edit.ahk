@@ -292,47 +292,58 @@ nm_LoadFieldDefaults()
 Loop, Files, %A_ScriptDir%\patterns\*.ahk
 	patternlist .= StrReplace(A_LoopFileName, ".ahk") "|"
 
+
+; filepath: /C:/Users/phamt/OneDrive - caugiay.edu.vn/macro/Natro Macro v0.8.5A/FieldDefault_Edit.ahk
+; ...existing code...
+
 Gui, New
 Gui, Font, w700
 gui +border +hwndhGUI +OwnDialogs
-Gui, Add, Text, x40 y25 w100 +left +BackgroundTrans,Gather area
-Gui, Add, Text, x180 y25 w100 +left +BackgroundTrans,Pattern
-Gui, Add, Text, x280 y25 w100 +left +BackgroundTrans,REQ
-Gui, Add, Text, x430 y25 w100 +left +BackgroundTrans,Sprinkler
 
-Gui, Font, s8 cDefault Norm, Tahoma
-Gui, Add, Text, x30 y40 w100 +left +BackgroundTrans,Field NAME
-Gui, Add, Text, x111 y31 w1 h200 0x7 ; ~ 0x7 = SS_BLACKFRAME - faster drawing of lines since no text rendered
-Gui, Add, Text, x125 y40 w100 +left +BackgroundTrans,Shape
-Gui, Add, Text, x180 y40 w100 +left +BackgroundTrans,Length
-Gui, Add, Text, x225 y40 w100 +left +BackgroundTrans vpatternRepsHeader,Width
-Gui, Add, Text, x261 y31 w1 h200 0x7
-Gui, Add, Text, x270 y40 w100 +left +BackgroundTrans,Mins
-Gui, Add, Text, x305 y40 w100 +left +BackgroundTrans vuntilPackHeader,Pack`%
-Gui, Add, Text, x350 y40 w100 +left +BackgroundTrans,To Hive By:
-Gui, Add, Text, x410 y31 w1 h200 0x7
-Gui, Add, Text, x420 y40 w100 +left +BackgroundTrans vsprinklerStartHeader,Start Location
-Gui, Add, DropDownList, x18 y57 w90 vFieldName gnm_FieldSelect, % LTrim(StrReplace("|Bamboo|Blue Flower|Cactus|Clover|Coconut|Dandelion|Mountain Top|Mushroom|Pepper|Pine Tree|Pineapple|Pumpkin|Rose|Spider|Strawberry|Stump|Sunflower|", "|" FieldName "|", "|" FieldName "||"), "|")
-Gui, Add, DropDownList, x118 y57 w60 vFieldPattern, % LTrim(StrReplace(patternlist "Stationary|", "|" FieldPattern "|", "|" FieldPattern "||"), "|")
-Gui, Add, DropDownList, x180 y57 w40 vFieldPatternSize, % LTrim(StrReplace("|XS|S|M|L|XL|", "|" FieldPatternSize "|", "|" FieldPatternSize "||"), "|")
-Gui, Add, DropDownList, x222 y57 w35 vFieldPatternReps, % LTrim(StrReplace("|1|2|3|4|5|6|7|8|9|", "|" FieldPatternReps "|", "|" FieldPatternReps "||"), "|")
-Gui, Add, Checkbox, x20 y80 +BackgroundTrans vFieldDriftCheck,Field DRIFT
-Gui, Add, Text, x235 y80 vrotateCam, CAMERA ROTATE:
-Gui, Add, DropDownList, x325 y82 w50 vFieldRotateDirection, % LTrim(StrReplace("|None|Left|Right|", "|" FieldRotateDirection "|", "|" FieldRotateDirection "||"), "|")
-Gui, Add, DropDownList, x375 y82 w32 vFieldRotateTimes, % LTrim(StrReplace("|1|2|3|4|", "|" FieldRotateTimes "|", "|" FieldRotateTimes "||"), "|")
-Gui, Add, Edit, x268 y57 w30 h20 limit3 number vFieldUntilMins, %FieldUntilMins1%
-Gui, Add, Text, x115 y95 vFieldInvertText1, Invert:
-Gui, Add, Checkbox, x155 y95 +BackgroundTrans vFieldPatternInvertFB, F/B
-Gui, Add, Checkbox, x195 y95 +BackgroundTrans vFieldPatternInvertLR, L/R
-Gui, Add, Checkbox, x115 y120 +BackgroundTrans vFieldPatternShift,Shift LOCK
-Gui, Add, DropDownList, x300 y57 w45 vFieldUntilPack, % LTrim(StrReplace("|100|95|90|85|80|75|70|65|60|55|50|45|40|35|30|25|20|15|10|5|", "|" FieldUntilPack "|", "|" FieldUntilPack "||"), "|")
-Gui, Add, DropDownList, x347 y57 w60 vFieldReturnType, % LTrim(StrReplace("|Walk|Reset|Rejoin|", "|" FieldReturnType "|", "|" FieldReturnType "||"), "|")
-Gui, Add, DropDownList, x415 y57 w80 vFieldSprinklerLoc, % LTrim(StrReplace("|Center|Upper Left|Upper|Upper Right|Right|Lower Right|Lower|Lower Left|Left|", "|" FieldSprinklerLoc "|", "|" FieldSprinklerLoc "||"), "|")
-Gui, Add, Text, x415 y82 w80 vsprinklerDistance1,Distance:
-Gui, Add, DropDownList,x460 y80 w35 vFieldSprinklerDist, % LTrim(StrReplace("|1|2|3|4|5|6|7|8|9|10|", "|" FieldSprinklerDist "|", "|" FieldSprinklerDist "||"), "|")
-Gui, Add, Button, x430 y130 gsaveField, Update NOW!
+; 1) Gather area (Field Name, Drift, Shift)
+Gui, Add, Text, x10  y10, GATHER AREA
+Gui, Add, DropDownList, x10  y30 w130 vFieldName gnm_FieldSelect, % LTrim(StrReplace("|Bamboo|Blue Flower|Cactus|Clover|Coconut|Dandelion|Mountain Top|Mushroom|Pepper|Pine Tree|Pineapple|Pumpkin|Rose|Spider|Strawberry|Stump|Sunflower|", "|" FieldName "|", "|" FieldName "||"), "|")
+Gui, Add, Checkbox, x155 y30 +BackgroundTrans vFieldDriftCheck, Field DRIFT
+Gui, Add, Checkbox, x250 y30 +BackgroundTrans vFieldPatternShift, Shift LOCK
 
-Gui, Show, w500 h150, FIELD_CONFIG.INI ediitor
+; 2) Pattern row (Pattern, Shape, Length, Width, Invert F/B L/R)
+Gui, Add, Text, x10  y60, PATTERN
+Gui, Add, DropDownList, x10  y80 w130 vFieldPattern, % LTrim(StrReplace(patternlist "Stationary|", "|" FieldPattern "|", "|" FieldPattern "||"), "|")
+Gui, Add, Text, x150 y60, LENGTH
+Gui, Add, DropDownList, x150 y80 w60 vFieldPatternSize, % LTrim(StrReplace("|XS|S|M|L|XL|", "|" FieldPatternSize "|", "|" FieldPatternSize "||"), "|")
+Gui, Add, Text, x222 y60, WIDTH
+Gui, Add, DropDownList, x220 y80 w40 vFieldPatternReps, % LTrim(StrReplace("|1|2|3|4|5|6|7|8|9|", "|" FieldPatternReps "|", "|" FieldPatternReps "||"), "|")
+Gui, Add, Text, x270 y80 vpatternRepsHeader, 
+Gui, Add, Text, x320 y60, Invert:
+Gui, Add, Checkbox, x320 y80 +BackgroundTrans vFieldPatternInvertFB, F/B
+Gui, Add, Checkbox, x360 y80 +BackgroundTrans vFieldPatternInvertLR, L/R
+
+; 3) Rotate camera (Rotate direction, Rotate times)
+Gui, Add, Text, x10  y110, ROTATE CAMERA
+Gui, Add, DropDownList, x10  y130 w70 vFieldRotateDirection, % LTrim(StrReplace("|None|Left|Right|", "|" FieldRotateDirection "|", "|" FieldRotateDirection "||"), "|")
+Gui, Add, Text, x90  y130, Amount:
+Gui, Add, DropDownList, x139 y130 w40 vFieldRotateTimes, % LTrim(StrReplace("|1|2|3|4|", "|" FieldRotateTimes "|", "|" FieldRotateTimes "||"), "|")
+
+; 4) Field Until (Mins, Pack%, To Hive By)
+Gui, Add, Text, x10  y160, FIELD UNTIL
+Gui, Add, Edit, x10  y180 w35 h20 limit3 number vFieldUntilMins, %FieldUntilMins1%
+Gui, Add, DropDownList, x50  y180 w45 vFieldUntilPack, % LTrim(StrReplace("|100|95|90|85|80|75|70|65|60|55|50|45|40|35|30|25|20|15|10|5|", "|" FieldUntilPack "|", "|" FieldUntilPack "||"), "|")
+Gui, Add, DropDownList, x100 y180 w60 vFieldReturnType, % LTrim(StrReplace("|Walk|Reset|Rejoin|", "|" FieldReturnType "|", "|" FieldReturnType "||"), "|")
+
+; 5) Sprinkler (Location, Distance)
+Gui, Add, Text, x10  y210, SPRINKLER
+Gui, Add, DropDownList, x10  y230 w100 vFieldSprinklerLoc, % LTrim(StrReplace("|Center|Upper Left|Upper|Upper Right|Right|Lower Right|Lower|Lower Left|Left|", "|" FieldSprinklerLoc "|", "|" FieldSprinklerLoc "||"), "|")
+Gui, Add, Text, x120 y230 w50 vsprinklerDistance1, Distance:
+Gui, Add, DropDownList, x179 y230 w40 vFieldSprinklerDist, % LTrim(StrReplace("|1|2|3|4|5|6|7|8|9|10|", "|" FieldSprinklerDist "|", "|" FieldSprinklerDist "||"), "|")
+
+; Update button
+Gui, Add, Button, x220 y230 w90 h25 gsaveField, Update NOW!
+
+; Adjust window size for new layout
+Gui, Show, w600 h280, FIELD_CONFIG.INI editor
+
+; ...existing code...
+
 
 
 

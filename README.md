@@ -80,11 +80,15 @@ files: `status.ahk`
 ```
 2.  `/settings/field_config.ini` editor GUI
 
-credit: someone else i could not remember
+credit: someone else i could not remember. A new version that make the GUI a bit better from Chatgpt o1 in Portrait mode to avoid overlapping. 
+
+Purpose: a graphical UI to edit the `field_config.ini` file, to avoid any cases in which being defaulted to Stationary parttern 
+
+![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/15.png)
 
 Installion: put the file in root natro consisting of `/settings` folder
 
-as of right now i cant find the github or original link for this script, temprary upload to script folder until i could find theoiginal
+as of right now i cant find the github or original link for this script, temprary upload to script folder until i could find the oiginal
 
 <a href="https://www.youtube.com/watch?v=luWwBXv_7LAk">
     <img src="https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/4.jpg" width="502" height="177" />
@@ -94,7 +98,9 @@ Tutorial:
 
  [![Watch on YouTube](https://img.shields.io/badge/YouTube-Watch%20TUTORIAL-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=luWwBXv_7LAk)
 
+Download: 
 
+[![Download Script](https://img.shields.io/badge/Download-Script-brightgreen?style=for-the-badge&logo=github)](https://github.com/wikiepeidia/NATRO-MACRO-MOD/raw/main/scripts/FieldDefault_Edit.ahk)
 
 3. Advanced tab Enabler
 
@@ -155,6 +161,12 @@ Usage: AFK stickers, hive hub stamp, leaderboard, hive hub badge.
 ![NATRO MACRO MOD](https://raw.githubusercontent.com/wikiepeidia/NATRO-MACRO-MOD/refs/heads/main/image/4.png)
 
 Tool reccomedation: dark scythe.
+
+Attention: Currently there is glitch to place petals,POP or planters in the hub field. 
+
+While we could not find any true case of data being wiped for doing this, as of now, do not macro in the hub, since the owner can perform statistic revert,etc.
+
+Also it might be possible to be flagged, thus we do not recommend an unfair play. 
 
 8. RDP Setup
 
