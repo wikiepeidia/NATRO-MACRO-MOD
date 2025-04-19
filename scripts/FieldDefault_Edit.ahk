@@ -316,7 +316,7 @@ Gui, Add, DropDownList, x220 y80 w40 vFieldPatternReps, % LTrim(StrReplace("|1|2
 Gui, Add, Text, x270 y80 vpatternRepsHeader, 
 Gui, Add, Text, x320 y60, Invert:
 Gui, Add, Checkbox, x320 y80 +BackgroundTrans vFieldPatternInvertFB, F/B
-Gui, Add, Checkbox, x360 y80 +BackgroundTrans vFieldPatternInvertLR, L/R
+Gui, Add, Checkbox, x370 y80 +BackgroundTrans vFieldPatternInvertLR, L/R
 
 ; 3) Rotate camera (Rotate direction, Rotate times)
 Gui, Add, Text, x10  y110, ROTATE CAMERA
@@ -325,7 +325,7 @@ Gui, Add, Text, x90  y130, Amount:
 Gui, Add, DropDownList, x139 y130 w40 vFieldRotateTimes, % LTrim(StrReplace("|1|2|3|4|", "|" FieldRotateTimes "|", "|" FieldRotateTimes "||"), "|")
 
 ; 4) Field Until (Mins, Pack%, To Hive By)
-Gui, Add, Text, x10  y160, FIELD UNTIL
+Gui, Add, Text, x10  y160, FIELD UNTIL MINUTE - PERCENT - TO HIVE BY
 Gui, Add, Edit, x10  y180 w35 h20 limit3 number vFieldUntilMins, %FieldUntilMins1%
 Gui, Add, DropDownList, x50  y180 w45 vFieldUntilPack, % LTrim(StrReplace("|100|95|90|85|80|75|70|65|60|55|50|45|40|35|30|25|20|15|10|5|", "|" FieldUntilPack "|", "|" FieldUntilPack "||"), "|")
 Gui, Add, DropDownList, x100 y180 w60 vFieldReturnType, % LTrim(StrReplace("|Walk|Reset|Rejoin|", "|" FieldReturnType "|", "|" FieldReturnType "||"), "|")
