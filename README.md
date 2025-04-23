@@ -376,6 +376,13 @@ concepts: if you want anything yourself, consider study where the functions and 
 created despealtely by claude 3.7 from coplot github
 
 announce puffshrrom so you will not forget.
+
+
+
+14. Variable fider
+python script to indentify hidden variables. As such if you want to set this variable, you will highly need to macro in Onedrive.
+
+
 <a name="DISCORD"><h2>🗨️🗣️ DISCORD</h2></a>
 [**Join us on Discord!**][discord-link]
 
@@ -383,6 +390,11 @@ This is where you can connect with the community, access guides and help channel
 
 Discord is our main platform for troubleshooting and update news!
  
+
+
+
+
+
 <a href="https://discord.gg/natromacro">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="http://invidget.switchblade.xyz/natromacro?theme=light"> <!-- light theme -->
@@ -390,14 +402,10 @@ Discord is our main platform for troubleshooting and update news!
   </picture>
 </a>
 
-for more mods consider our discord 
 
-<a href="https://discord.gg/RrznTTmu5G">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="http://invidget.switchblade.xyz/RrznTTmu5G?theme=light"> <!-- light theme -->
-    <img alt="discord-invite-widget" width=500 src="http://invidget.switchblade.xyz/RrznTTmu5G "> <!-- dark theme -->
-  </picture>
-</a>
+
+
+
 
 <a name="contributing"><h2>⌨️ Contributing</h2></a>
 
