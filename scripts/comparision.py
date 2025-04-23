@@ -189,10 +189,10 @@ def main():
     
     # Check if files exist
     if not os.path.exists(file1):
-        print(f"Error: File not found: {file1}")
+        print(f"Error: File not found: {file1}. plese check your file name/make sure it is in the same LOC as this script")
         return 1
     if not os.path.exists(file2):
-        print(f"Error: File not found: {file2}")
+        print(f"Error: File not found: {file2}. plese check your file name/make sure it is in the same LOC as this script")
         return 1
     
     print(f"Comparing '{os.path.basename(file1)}' with '{os.path.basename(file2)}'...")

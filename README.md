@@ -381,7 +381,16 @@ announce puffshrrom so you will not forget.
 
 14. Variable fider
 python script to indentify hidden variables. As such if you want to set this variable, you will highly need to macro in Onedrive.
-
+[![Download Script](https://img.shields.io/badge/Download-Comparison%20Script-brightgreen?style=for-the-badge&logo=github)](https://github.com/wikiepeidia/NATRO-MACRO-MOD/blob/main/scripts/comparision.py)
+Usage: copy your `nm_config.ini` file into a folder (contain the scipt),change the name to something `nmconfigold.ini` run natro and only enable setting you would need to change, then close natro and copy the new one to the same folder. 
+**Notice** you need to change the corresponding names in the script
+Then when hidden variables found, you can attempt to change it in RC commands. There will be a high chance that this is not doable . 
+Moreover, changing those setting could lead to script errors,other settings also changed as well, thus to make sure you can properly change those, we recommended macroing in Onedrive.
+**you will most likely had to change it via another remote things, one of the best way is to macro in Onedrive.**
+If you use onedrive, things get easier since you just need to copy and paste into your laptop/other devices macro, change it, then paste that into onedrive.
+Moreover, this will also work in Mobile, in case that you don't have the computer, but just to make sure that you can't run AHK on phones and you need to read variables by yourself.
+**ATTENTION to onedrive**: you need to stop the macro before doing any changes, else you can cause conflicts
+cirtain Essential variables that cannot be changed,such as nectar preset Red blue white and Custom, and most of the AFB settings
 
 <a name="DISCORD"><h2>🗨️🗣️ DISCORD</h2></a>
 [**Join us on Discord!**][discord-link]
